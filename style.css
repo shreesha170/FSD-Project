@@ -87,6 +87,13 @@ section#about {
     color: #fff;
     margin-top: 20px;
 }
+.profile-pic {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin: 20px auto; /* Centers the image horizontally */
+}
 /*section#contact{
     background:linear-gradient(to right, #b013a0, #1091c4);
     font-family: Georgia, 'Times New Roman', Times, serif;
