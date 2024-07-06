@@ -92,10 +92,12 @@ section#about {
 .profile-pic {
     display: block;
     max-width: 150px;
-    height: auto;
+    max-height: 150px; /* Ensures the height does not exceed 150px */
+    height: auto;     /* Adjusts the height automatically based on the width */
     border-radius: 50%; /* Makes the image circular */
     margin: 20px auto; /* Centers the image horizontally */
 }
+
 /*section#contact{
     background:linear-gradient(to right, #b013a0, #1091c4);
     font-family: Georgia, 'Times New Roman', Times, serif;
