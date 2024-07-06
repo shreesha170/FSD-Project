@@ -84,6 +84,7 @@ header nav {
 section#about {
     background:linear-gradient(to right, #b013a0, #1091c4);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     padding: 20px;
     color: #fff;
     margin-top: 20px;
